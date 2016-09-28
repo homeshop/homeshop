@@ -36,7 +36,8 @@
             "php -r \"file_exists('.env') || copy('resources/.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "php cmd key:generate"
+            "php cmd key:generate",
+            "php cmd vendor:publish --quiet"
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
@@ -44,7 +45,6 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php cmd vendor:publish --quiet",
             "php cmd ide-helper:generate",
             "php cmd ide-helper:meta",
             "php cmd optimize"
