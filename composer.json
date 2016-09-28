@@ -44,7 +44,7 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php cmd vendor:publish",
+            "php cmd vendor:publish --quiet",
             "php cmd ide-helper:generate",
             "php cmd ide-helper:meta",
             "php cmd optimize"
