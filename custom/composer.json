@@ -1,0 +1,12 @@
+{
+    "name": "homeshop/custom",
+    "description": "",
+    "type": "homeshop-custom",
+    "autoload": {
+        "psr-4": {
+            "": [
+                "./"
+            ]
+        }
+    }
+}
