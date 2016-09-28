@@ -9,3 +9,4 @@ Homestead.yaml
 /composer.lock
 .env
 *.bak
+/resources/views/modules
