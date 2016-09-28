@@ -57,12 +57,11 @@
     "extra": {
         "merge-plugin": {
             "include": [
-                "app/*/composer.json"
             ],
             "require": [
             ],
             "recurse": true,
-            "replace": false,
+            "replace": true,
             "merge-dev": true,
             "merge-extra": true,
             "merge-extra-deep": true
