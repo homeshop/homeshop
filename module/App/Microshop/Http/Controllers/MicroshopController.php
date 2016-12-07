@@ -3,10 +3,8 @@
 use Homeshop\Modules\Routing\Controller;
 
 class MicroshopController extends Controller {
-	
-	public function index()
-	{
-		return view('microshop::index');
-	}
-	
+    
+    public function index() {
+        return view('microshop::index');
+    }
 }

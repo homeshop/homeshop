@@ -9,11 +9,16 @@
         }
     ],
     "require": {
-        "homeshop/module-core": "dev-master"
+
     },
     "autoload": {
         "psr-4": {
             "App\\Core\\": ""
+        },
+        "psr-0": {
+            "":[
+                "Entities/"
+            ]
         }
     }
 }

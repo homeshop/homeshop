@@ -1,0 +1,2 @@
+<?php ?>
+<?php echo $output['msg']; ?>

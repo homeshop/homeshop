@@ -20,7 +20,7 @@ class Application extends App
      */
     public function databasePath()
     {
-        return $this->databasePath ?: $this->basePath.DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR.'database';
+        return $this->databasePath ?: realpath($this->basePath.'/resources/database') ;
     }
 
     /**
@@ -30,6 +30,6 @@ class Application extends App
      */
     public function path()
     {
-        return $this->basePath.DIRECTORY_SEPARATOR.'app'.DIRECTORY_SEPARATOR.'Core';
+        return realpath($this->basePath.'/module/App/Core') ;
     }
 }

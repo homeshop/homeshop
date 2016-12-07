@@ -1,5 +1,6 @@
 <?php
 
-return [
-	'name' => 'Admin'
-];
+
+$config['sys_log']          = true;
+
+return $config;

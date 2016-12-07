@@ -3,10 +3,8 @@
 use Homeshop\Modules\Routing\Controller;
 
 class CmsController extends Controller {
-	
-	public function index()
-	{
-		return view('cms::index');
-	}
-	
+    
+    public function index() {
+        return view('cms::index');
+    }
 }
