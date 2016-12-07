@@ -34,7 +34,7 @@
             "App\\": "module/App/",
             "": [
                 "module/",
-                "custom/"
+                "app/"
             ]
         }
     },

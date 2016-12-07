@@ -5,7 +5,7 @@
 /.idea
 Homestead.json
 Homestead.yaml
-/build
+/dev
 /composer.lock
 .env
 *.bak

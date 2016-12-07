@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "homeshop/module-topic": "dev-master",
+        "homeshop/module-article": "dev-master",
         "homeshop/theme-twentyfifteen": "dev-master",
         "homeshop/theme-zalive": "dev-master",
         "homeshop/plugin-common": "dev-master",
