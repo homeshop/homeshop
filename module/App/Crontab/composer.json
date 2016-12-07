@@ -1,0 +1,19 @@
+{
+	"name": "homeshop/app-crontab",
+	"description": "",
+	"type": "homeshop-app",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	],
+	"require": {
+		"homeshop/module-crontab": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\Crontab\\": ""
+		}
+	}
+}

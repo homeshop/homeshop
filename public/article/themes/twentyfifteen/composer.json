@@ -1,0 +1,11 @@
+{
+	"name": "homeshop/theme-twentyfifteen",
+	"description": "",
+	"type": "homeshop-theme",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	]
+}

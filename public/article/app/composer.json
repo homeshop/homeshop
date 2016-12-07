@@ -1,0 +1,11 @@
+{
+	"name": "homeshop/module-topic",
+	"description": "",
+	"type": "homeshop-module",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	]
+}

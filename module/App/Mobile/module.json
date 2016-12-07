@@ -1,0 +1,15 @@
+{
+    "name": "Mobile",
+    "alias": "mobile",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Mobile\\Providers\\MobileServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

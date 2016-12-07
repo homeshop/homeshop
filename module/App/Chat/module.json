@@ -1,0 +1,15 @@
+{
+    "name": "Chat",
+    "alias": "chat",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Chat\\Providers\\ChatServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

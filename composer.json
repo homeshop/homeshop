@@ -1,5 +1,6 @@
 {
     "name": "homeshop/homeshop",
+    "license": "proprietary",
     "description": "Homeshop e-Commerce Platform",
     "keywords": [
         "homeshop",
@@ -20,13 +21,19 @@
     "require-dev": {
     },
     "autoload": {
+        "psr-0":{
+            "":[
+                "module/Library/"
+            ]
+        },
         "classmap": [
             "resources/database"
         ],
         "psr-4": {
-            "App\\Core\\": "app/Core/",
-            "App\\": "app/",
+            "App\\Core\\": "module/App/Core/",
+            "App\\": "module/App/",
             "": [
+                "module/",
                 "custom/"
             ]
         }

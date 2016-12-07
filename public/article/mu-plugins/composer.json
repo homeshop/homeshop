@@ -1,0 +1,11 @@
+{
+	"name": "homeshop/plugin-common",
+	"description": "",
+	"type": "homeshop-plugin",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	]
+}

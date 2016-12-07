@@ -1,0 +1,19 @@
+{
+	"name": "homeshop/app-api",
+	"description": "",
+	"type": "homeshop-app",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	],
+	"require": {
+		"homeshop/module-api": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\Api\\": ""
+		}
+	}
+}

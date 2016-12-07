@@ -1,0 +1,15 @@
+{
+    "name": "Crontab",
+    "alias": "crontab",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Crontab\\Providers\\CrontabServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "homeshop/theme-zalive",
+	"description": "",
+	"type": "homeshop-theme",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	]
+}

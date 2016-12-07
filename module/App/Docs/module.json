@@ -1,0 +1,15 @@
+{
+    "name": "Docs",
+    "alias": "docs",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Docs\\Providers\\DocsServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "homeshop/app-circle",
+	"description": "",
+	"type": "homeshop-app",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	],
+	"require": {
+		"homeshop/module-circle": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\Circle\\": ""
+		}
+	}
+}

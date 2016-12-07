@@ -1,0 +1,15 @@
+{
+    "name": "Circle",
+    "alias": "circle",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Circle\\Providers\\CircleServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

@@ -1,0 +1,20 @@
+<?php namespace App\Microshop\Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
+
+class MicroshopDatabaseSeeder extends Seeder {
+
+	/**
+	 * Run the database seeds.
+	 *
+	 * @return void
+	 */
+	public function run()
+	{
+		Model::unguard();
+		
+		// $this->call("OthersTableSeeder");
+	}
+
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Delivery",
+    "alias": "delivery",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Delivery\\Providers\\DeliveryServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

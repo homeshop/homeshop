@@ -1,0 +1,19 @@
+{
+	"name": "homeshop/app-chat",
+	"description": "",
+	"type": "homeshop-app",
+	"authors": [
+		{
+			"name": "Homeshop Studio",
+			"email": "foolant@qq.com"
+		}
+	],
+	"require": {
+		"homeshop/module-chat": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\Chat\\": ""
+		}
+	}
+}

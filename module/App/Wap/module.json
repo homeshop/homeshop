@@ -1,0 +1,15 @@
+{
+    "name": "Wap",
+    "alias": "wap",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Wap\\Providers\\WapServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

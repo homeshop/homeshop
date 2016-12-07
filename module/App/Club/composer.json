@@ -1,0 +1,19 @@
+{
+	"name": "homeshop/app-club",
+	"description": "",
+	"type": "homeshop-app",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	],
+	"require": {
+		"homeshop/module-club": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\Club\\": ""
+		}
+	}
+}

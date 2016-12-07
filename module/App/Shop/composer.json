@@ -1,0 +1,19 @@
+{
+	"name": "homeshop/app-shop",
+	"description": "",
+	"type": "homeshop-app",
+	"authors": [
+		{
+			"name": "Homeshop Team",
+			"email": "homeshop@shopes.cn"
+		}
+	],
+	"require": {
+		"homeshop/module-shop": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\Shop\\": ""
+		}
+	}
+}

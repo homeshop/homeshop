@@ -1,0 +1,26 @@
+{
+    "name": "homeshop/app-topic",
+    "description": "",
+    "type": "homeshop-app",
+    "authors": [
+        {
+            "name": "Homeshop Team",
+            "email": "homeshop@shopes.cn"
+        }
+    ],
+    "require": {
+        "homeshop/module-topic": "dev-master",
+        "homeshop/theme-twentyfifteen": "dev-master",
+        "homeshop/theme-zalive": "dev-master",
+        "homeshop/plugin-common": "dev-master",
+        "homeshop/aquila-admin-theme": "dev-master",
+        "homeshop/download-manager": "dev-master",
+        "homeshop/wp-admin-ui-customize": "dev-master",
+        "homeshop/wp-dbmanager": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Topic\\": ""
+        }
+    }
+}
